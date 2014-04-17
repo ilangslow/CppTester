@@ -4,6 +4,7 @@
 #include "stdafx.h"
 
 #include <iostream>
+#include <string>
 #include <vector>
 
 #include "../TestLib/LibInterface.h"
@@ -22,6 +23,7 @@ public:
 
 private:
 	int m_value;
+	std::string m_name;
 };
 
 int _tmain(int argc, _TCHAR* argv[])
