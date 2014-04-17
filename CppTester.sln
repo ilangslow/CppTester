@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppTester", "CppTester\CppTester.vcxproj", "{4D0A3B79-828E-4B75-8355-1CD188F9A0BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{34775575-E078-4157-9F0B-48B66CF88856} = {34775575-E078-4157-9F0B-48B66CF88856}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestLib", "TestLib\TestLib.vcxproj", "{34775575-E078-4157-9F0B-48B66CF88856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D0A3B79-828E-4B75-8355-1CD188F9A0BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4D0A3B79-828E-4B75-8355-1CD188F9A0BA}.Debug|Win32.Build.0 = Debug|Win32
+		{4D0A3B79-828E-4B75-8355-1CD188F9A0BA}.Release|Win32.ActiveCfg = Release|Win32
+		{4D0A3B79-828E-4B75-8355-1CD188F9A0BA}.Release|Win32.Build.0 = Release|Win32
+		{34775575-E078-4157-9F0B-48B66CF88856}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34775575-E078-4157-9F0B-48B66CF88856}.Debug|Win32.Build.0 = Debug|Win32
+		{34775575-E078-4157-9F0B-48B66CF88856}.Release|Win32.ActiveCfg = Release|Win32
+		{34775575-E078-4157-9F0B-48B66CF88856}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
