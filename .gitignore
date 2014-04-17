@@ -29,6 +29,7 @@
 # Microsoft Visual Studio support files
 *.idb
 *.ilk
+*.opensdf
 *.pdb
 *.sdf
 *.suo
