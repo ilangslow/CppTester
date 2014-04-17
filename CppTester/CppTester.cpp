@@ -11,6 +11,7 @@
 
 using std::cout;
 using std::endl;
+using std::string;
 
 class Foo
 {
@@ -23,7 +24,7 @@ public:
 
 private:
 	int m_value;
-	std::string m_name;
+	string m_name;
 };
 
 int _tmain(int argc, _TCHAR* argv[])
