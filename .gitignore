@@ -32,6 +32,7 @@
 *.pdb
 *.sdf
 *.suo
+*.vcxproj.user
 
 # Logs
 *.tlog
