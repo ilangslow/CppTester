@@ -4,12 +4,14 @@
 #include "stdafx.h"
 
 #include <iostream>
+#include <string>
 #include <vector>
 
 #include "../TestLib/LibInterface.h"
 
 using std::cout;
 using std::endl;
+using std::string;
 
 class Foo
 {
@@ -22,6 +24,7 @@ public:
 
 private:
 	int m_value;
+	string m_name;
 };
 
 int _tmain(int argc, _TCHAR* argv[])
